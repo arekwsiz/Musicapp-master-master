@@ -1,13 +1,17 @@
 package com.example.stud.musicapp;
 
+/**
+ * Created by W57448 on 2018-05-17.
+ */
+
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
-import com.example.stud.musicapp.topsongs.TopSongsActivity;
+
+import com.example.stud.appmusic.topsongs.TopSongsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,15 +20,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        Button bTopSongs = findViewById(R.id.top_song);
+        Button bTopSongs = findViewById(R.id.bTopSongs);
         bTopSongs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Intent intent = new Intent(MainActivity.this, TopSongsActivity.class);
+                Intent intent = new Intent(MainActivity. this , TopSongsActivity. class );
                 startActivity(intent);
-            };
+            }
         });
     }
 }

@@ -1,4 +1,4 @@
-package com.example.stud.appmusic.topsongs;
+package com.example.stud.musicapp.topsongs;
 
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -8,11 +8,11 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.example.stud.appmusic.R;
-import com.example.stud.appmusic.api.ApiService;
+import com.example.stud.musicapp.R;
+import com.example.stud.musicapp.api.ApiService;
 
-import com.example.stud.appmusic.api.TrendingList;
-import com.example.stud.appmusic.api.TrendingSingle;
+import com.example.stud.musicapp.api.TrendingList;
+import com.example.stud.musicapp.api.TrendingSingle;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
@@ -36,6 +36,10 @@ public class TopSongsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_top_songs);
 
+
+
+
+
         getSupportActionBar().setDisplayHomeAsUpEnabled( true ); //górny pasek aplikacji
 
         rvList = findViewById(R.id.rvList);
@@ -44,12 +48,10 @@ public class TopSongsActivity extends AppCompatActivity {
         rvList .setAdapter(topSongsAdapter);
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager( this );
-        rvList .setLayoutManager(linearLayoutManager);
         linearLayoutManager.setReverseLayout(true);
         linearLayoutManager.setStackFromEnd(true);
 
-        rvList.setLayoutManager(linearLayoutManager);
-
+        rvList .setLayoutManager(linearLayoutManager);
 
 
 
