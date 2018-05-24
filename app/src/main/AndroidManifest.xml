@@ -26,6 +26,9 @@
         <activity
             android:name=".favorites.FavoritesActivity"
             android:label="@string/favorites" />
+        <activity
+            android:name=".searchalbum.SearchAlbumActivity"
+            android:label="@string/search_album"/>
     </application>
 
 </manifest>

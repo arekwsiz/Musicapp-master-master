@@ -5,8 +5,7 @@
     <string name="genre">Gatunek</string>
     <string name="style">Styl</string>
     <string name="favorites">Ulubione</string>
-    <string name="Szukaj">search</string>
-    <string name="qweew">Podaj coś</string>
-
-
+    <string name="search_album">Znajdź album</string>
+    <string name="search">Szukaj</string>
+    <string name="enter_artist_name">Podaj nazwę wykonawcy</string>
 </resources>
