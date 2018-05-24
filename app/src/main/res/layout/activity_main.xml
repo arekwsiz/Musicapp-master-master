@@ -13,5 +13,13 @@
         android:layout_weight="1"
         android:text="@string/top_songs" />
 
+    <Button
+        android:id="@+id/bFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/favorites" />
+
+
 
 </LinearLayout>

@@ -4,6 +4,7 @@
     <string name="album">Album</string>
     <string name="genre">Gatunek</string>
     <string name="style">Styl</string>
+    <string name="favorites">Ulubione</string>
 
 
 </resources>

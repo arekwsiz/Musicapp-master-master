@@ -28,5 +28,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button bFavorites = findViewById(R.id.bFavorites);
+        bFavorites.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity. this , FavoritesActivity. class );
+                startActivity(intent);
+            }
+        });
     }
 }
