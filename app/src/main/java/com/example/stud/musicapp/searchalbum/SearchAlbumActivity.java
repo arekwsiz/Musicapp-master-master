@@ -1,3 +1,13 @@
+package com.example.stud.musicapp.searchalbum;
+
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
 public class SearchAlbumActivity extends AppCompatActivity {
     EditText etQuery;
     RecyclerView rvList;
