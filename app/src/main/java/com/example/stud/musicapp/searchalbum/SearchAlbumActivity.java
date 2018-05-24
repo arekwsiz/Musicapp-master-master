@@ -21,8 +21,8 @@ public class SearchAlbumActivity extends AppCompatActivity {
 
         sharedPreferences=getPreferences(MODE_PRIVATE);
 
-        etQuery.findViewById(R.id.etQuery);
-        rvList.findViewById(R.id.rvList);
+        etQuery=findViewById(R.id.etQuery);
+        rvList=findViewById(R.id.rvList);
 
         Button bSearch= findViewById(R.id.bSearch);
         bSearch.setOnClickListener(new View.OnClickListener() {
