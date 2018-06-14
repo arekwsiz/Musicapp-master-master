@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    - <menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/itemSortName" android:title="@string/sort_by_name" app:showAsAction="never" />
+    <item android:id="@+id/itemSortYear" android:title="@string/sort_by_year" app:showAsAction="never" />
+    <item android:id="@+id/itemSortSales" android:title="@string/sort_by_sale" app:showAsAction="never" />
+    <item android:id="@+id/itemSortScore" android:title="@string/sort_by_score" app:showAsAction="never" />
+</menu>
